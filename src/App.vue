@@ -1,14 +1,5 @@
 <script setup>
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
-gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
-ScrollSmoother.create({
-  wrapper: ".wrapper",
-  content: ".content",
-  smooth: 1.5,
-  effects: true,
-})
+// import { ref, onMounted, onUnmounted } from "vue";
 import Header from "./components/Header/Header.vue";
 import Brand from "./components/Brand/Brand.vue";
 import OurPorularProduct from "./components/Our Porular Product/Our Porular Product.vue";
@@ -16,11 +7,39 @@ import Number from "./components/Number/Number.vue";
 import Info from "./components/Info/Info.vue";
 import Slayder from "./components/Slayder/Slayder.vue";
 import Footer from "./components/Footer/Footer.vue";
+
+SmoothScroll({
+// Время скролла 400 = 0.4 секунды
+animationTime : 800,
+// Размер шага в пикселях
+stepSize : 75,
+
+// Дополнительные настройки:
+
+// Ускорение
+accelerationDelta : 30,
+// Максимальное ускорение
+accelerationMax : 2,
+
+// Поддержка клавиатуры
+keyboardSupport : true,
+// Шаг скролла стрелками на клавиатуре в пикселях
+arrowScroll : 50,
+
+// Pulse (less tweakable)
+// ratio of "tail" to "acceleration"
+pulseAlgorithm : true,
+pulseScale : 4,
+pulseNormalize : 1,
+
+// Поддержка тачпада
+touchpadSupport : true,
+})
 </script>
 
 <template>
-  <div class="wrapper">
-    <div class="content">
+  <div id="wrapper">
+    <div id="content">
       <Header />
       <Brand />
       <OurPorularProduct />
@@ -30,4 +49,5 @@ import Footer from "./components/Footer/Footer.vue";
       <Footer />
     </div>
   </div>
+  <div id="smooth-scrollbar"></div>
 </template>
