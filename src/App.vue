@@ -38,16 +38,11 @@ touchpadSupport : true,
 </script>
 
 <template>
-  <div id="wrapper">
-    <div id="content">
-      <Header />
-      <Brand />
-      <OurPorularProduct />
-      <Number />
-      <Info />
-      <Slayder />
-      <Footer />
-    </div>
-  </div>
-  <div id="smooth-scrollbar"></div>
+  <Header />
+  <Brand />
+  <OurPorularProduct />
+  <Number />
+  <Info />
+  <Slayder />
+  <Footer />
 </template>
