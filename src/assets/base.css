@@ -1,0 +1,11 @@
+*{
+  --brown: #402F2C;
+  --pin: #FDF8F5;
+  --pink: #F9F6F5;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
+:root{
+  --index: calc(1vw + 1vh);
+}
