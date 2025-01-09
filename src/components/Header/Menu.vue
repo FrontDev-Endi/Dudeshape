@@ -17,7 +17,7 @@ const addtoclass = () => {
       <a href="#">Contact</a>
     </div>
     <div class="ico">
-      <img src="/public/img/profile.svg" alt="">
+      <img src="/img/Profile.svg" alt="">
       <img class="buy" src="/img/Buy.svg" alt="Buy" />
       <img
         class="frame"
