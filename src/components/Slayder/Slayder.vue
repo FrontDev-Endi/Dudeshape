@@ -89,7 +89,7 @@ export default {
     z-index: 100;
   }
   .swiper-button-next {
-    background: url(/img/btn.png) no-repeat;
+    background: url(/public/img/btn.png) no-repeat;
     background-size: cover;
     width: 32px;
     height: 32px;
@@ -102,7 +102,7 @@ export default {
     right: 0;
   }
   .swiper-button-prev {
-    background: url(/img/btn.png) no-repeat;
+    background: url(/public/img/btn.png) no-repeat;
     transform: rotate(180deg);
     background-size: cover;
     width: 32px;
