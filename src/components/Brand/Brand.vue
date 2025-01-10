@@ -1,11 +1,11 @@
 <template>
   <div class="brand">
-    <img src="/img/Airbnb.png" alt="Airbnb" class="animate__animated animate__fadeInDown animate__delay-1s" />
-    <img src="/img/Hubspot.png" alt="Hubspot" class="animate__animated animate__fadeInDown animate__delay-2s"/>
-    <img src="/img/Google.png" alt="Google" class="animate__animated animate__fadeInDown animate__delay-3s"/>
-    <img src="/img/Microsoft.png" alt="Microsoft" class="animate__animated animate__fadeInDown animate__delay-4s"/>
-    <img src="/img/Walmart.png" alt="Walmart" class="animate__animated animate__fadeInDown animate__delay-5s"/>
-    <img src="/img/FedEx.png" alt="FedEx" class="animate__animated animate__fadeInDown animate__delay-5s" />
+    <img src="./img/Airbnb.png" alt="Airbnb" class="animate__animated animate__fadeInDown animate__delay-1s" />
+    <img src="./img/Hubspot.png" alt="Hubspot" class="animate__animated animate__fadeInDown animate__delay-2s"/>
+    <img src="./img/Google.png" alt="Google" class="animate__animated animate__fadeInDown animate__delay-3s"/>
+    <img src="./img/Microsoft.png" alt="Microsoft" class="animate__animated animate__fadeInDown animate__delay-4s"/>
+    <img src="./img/Walmart.png" alt="Walmart" class="animate__animated animate__fadeInDown animate__delay-5s"/>
+    <img src="./img/FedEx.png" alt="FedEx" class="animate__animated animate__fadeInDown animate__delay-5s" />
   </div>
 </template>
 

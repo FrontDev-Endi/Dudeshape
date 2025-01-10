@@ -25,19 +25,19 @@ const addtodiscover = () => {
         </div>
         <p class="btn" @click="addtodiscover" v-if="see">
           Discover Our Products
-          <img src="/img/Frame-2.svg" />
+          <img src="./img/Frame-2.svg" />
         </p>
       </div>
       <div class="content">
         <div class="see">
-          <Item image="/img/pump-bottle-02 1.png" />
-          <Item image="/img/jar-15 1.png" />
+          <Item image="./img/pump-bottle-02 1.png" />
+          <Item image="./img/jar-15 1.png" />
         </div>
         <div class="hidden" v-if="discover">
-          <Item image="/img/pump-bottle-02 1.png" />
-          <Item image="/img/jar-15 1.png" />
-          <Item image="/img/pump-bottle-02 1.png" />
-          <Item image="/img/jar-15 1.png" />
+          <Item image="./img/pump-bottle-02 1.png" />
+          <Item image="./img/jar-15 1.png" />
+          <Item image="./img/pump-bottle-02 1.png" />
+          <Item image="./img/jar-15 1.png" />
         </div>
       </div>
     </div>

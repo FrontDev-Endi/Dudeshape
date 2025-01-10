@@ -17,11 +17,11 @@ const addtoclass = () => {
       <a href="#">Contact</a>
     </div>
     <div class="ico">
-      <img src="/img/Profile.svg" alt="">
-      <img class="buy" src="/img/Buy.svg" alt="Buy" />
+      <img src="./img/Profile.svg" alt="">
+      <img class="buy" src="./img/Buy.svg" alt="Buy" />
       <img
         class="frame"
-        src="/img/Frame.svg"
+        src="./img/Frame.svg"
         @click="addtoclass()"
         alt="Frame"
       />

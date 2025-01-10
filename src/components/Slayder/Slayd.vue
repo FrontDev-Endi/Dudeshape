@@ -1,22 +1,22 @@
 <template>
   <div class="slayd">
     <div class="left">
-      <img src="/img/pretty.png" alt="pretty" />
+      <img src="./img/pretty.png" alt="pretty" />
     </div>
     <div class="right">
       <div class="content">
         <h1 class="title">Amazing Cosmetic</h1>
         <div class="star">
-          <img src="/img/star.png" alt="star" />
+          <img src="./img/star.png" alt="star" />
         </div>
         <div class="text">
           <p class="paragraph">
-            <img class="quote" src="/img/“.svg" />
+            <img class="quote" src="./img/“.svg" />
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book
-            <img class="quote-two" src="/img/12.svg" />
+            <img class="quote-two" src="./img/12.svg" />
           </p>
         </div>
         <h1 class="name">Rusmin Islam</h1>

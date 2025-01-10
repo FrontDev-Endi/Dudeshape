@@ -21,9 +21,9 @@
         <p>oyasimnaeem@email.com</p>
         <p>+123456789</p>
         <div class="icon">
-          <img src="/img/facebook 1.png" alt="facebook" />
-          <img src="/img/instagram 1.png" alt="instagram" />
-          <img src="/img/twitter 1.png" alt="twitter" />
+          <img src="./img/facebook 1.png" alt="facebook" />
+          <img src="./img/instagram 1.png" alt="instagram" />
+          <img src="./img/twitter 1.png" alt="twitter" />
         </div>
       </div>
     </div>
