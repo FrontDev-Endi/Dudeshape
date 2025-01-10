@@ -1,4 +1,4 @@
-<template>
+/public<template>
   <div class="foot">
     <div class="one">
       <h1 class="logo">Dudeshape</h1>
@@ -21,9 +21,9 @@
         <p>oyasimnaeem@email.com</p>
         <p>+123456789</p>
         <div class="icon">
-          <img src="./img/facebook 1.png" alt="facebook" />
-          <img src="./img/instagram 1.png" alt="instagram" />
-          <img src="./img/twitter 1.png" alt="twitter" />
+          <img src="/public/img/facebook 1.png" alt="facebook" />
+          <img src="/public/img/instagram 1.png" alt="instagram" />
+          <img src="/public/img/twitter 1.png" alt="twitter" />
         </div>
       </div>
     </div>

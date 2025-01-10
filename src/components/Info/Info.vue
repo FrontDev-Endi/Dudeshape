@@ -27,7 +27,7 @@
         <button class="btn">Shop Now</button>
       </div>
       <div class="right">
-        <img src="./img/Rectangle 8.png" alt="Group 1" />
+        <img src="/public/img/Rectangle 8.png" alt="Group 1" />
       </div>
     </div>
   </div>
