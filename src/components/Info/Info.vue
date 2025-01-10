@@ -27,7 +27,7 @@
         <button class="btn">Shop Now</button>
       </div>
       <div class="right">
-        <img src="img/Rectangle 8.png" alt="image" />
+        <img src="asets/Rectangle 8.png" alt="image" />
       </div>
     </div>
   </div>
