@@ -30,14 +30,14 @@ const addtodiscover = () => {
       </div>
       <div class="content">
         <div class="see">
-          <Item image="/public/img/pump-bottle-02 1.png" />
-          <Item image="/public/img/jar-15 1.png" />
+          <Item image="img/pump-bottle-02 1.png" />
+          <Item image="img/jar-15 1.png" />
         </div>
         <div class="hidden" v-if="discover">
-          <Item image="/public/img/pump-bottle-02 1.png" />
-          <Item image="/public/img/jar-15 1.png" />
-          <Item image="/public/img/pump-bottle-02 1.png" />
-          <Item image="/public/img/jar-15 1.png" />
+          <Item image="img/pump-bottle-02 1.png" />
+          <Item image="img/jar-15 1.png" />
+          <Item image="img/pump-bottle-02 1.png" />
+          <Item image="img/jar-15 1.png" />
         </div>
       </div>
     </div>
