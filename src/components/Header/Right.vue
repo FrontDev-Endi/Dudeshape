@@ -1,6 +1,6 @@
 <template>
   <div class="right animate__animated animate__fadeInRight" data-speed=".1">
-    <img src="../../../public/img/2.png" alt="">
+    <img src="assets/2.png" alt="">
   </div>
 </template>
 
