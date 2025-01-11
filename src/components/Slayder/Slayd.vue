@@ -1,7 +1,7 @@
 <template>
   <div class="slayd">
     <div class="left">
-      <img src="assets/pretty.png" alt="pretty" />
+      <img src="/public/img/pretty.png" alt="pretty" />
     </div>
     <div class="right">
       <div class="content">
