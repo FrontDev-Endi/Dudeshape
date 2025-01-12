@@ -1,6 +1,6 @@
 <script setup>
   import Menu from './Menu.vue';
-  import Content from './content.vue';
+  import Content from './Content.vue';
 </script>
 
 <template>
