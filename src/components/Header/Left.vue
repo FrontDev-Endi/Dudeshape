@@ -12,7 +12,7 @@
     <div class="input">
       <input placeholder="Search" type="search" name="search" id="search" />
       <button type="submit">
-        <img src="/public/img/search.svg" alt="search" />
+        <img src="/public/img/Search.svg" alt="search" />
       </button>
     </div>
     <button class="btn">Shop Now</button>
