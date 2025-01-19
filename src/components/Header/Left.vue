@@ -80,4 +80,32 @@
     color: #fff;
   }
 }
+
+@media (max-width: 425px) {
+  .left {
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: calc(var(--index) * 2.4);
+    }
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: calc(var(--index) * 1);
+      line-height: calc(var(--index) * 1.5);
+    }
+    .input {
+      #search {
+        width: calc(var(--index) * 15);
+      }
+    }
+    .btn {
+      width: calc(var(--index) * 6.4);
+      height: calc(var(--index) * 3);
+      font-size: calc(var(--index) * 0.84);
+    }
+  }
+}
 </style>

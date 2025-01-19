@@ -27,7 +27,7 @@
 </template>
 
 <style scoped>
-  .slayd {
+.slayd {
   display: flex;
   justify-content: center;
   .left {
@@ -89,11 +89,24 @@
     }
     .right {
       .content {
+        .title {
+          font-size: calc(var(--index) * 1.5);
+        }
         .text {
           margin-top: 10px;
+          .paragraph {
+            font-size: calc(var(--index) * 0.95);
+            line-height: calc(var(--index) * 1.2);
+          }
         }
         .name {
           margin-top: 10px;
+          font-size: calc(var(--index) * 1.4);
+          line-height: calc(var(--index) * 1.8);
+        }
+        .job {
+          font-size: calc(var(--index) * 1.15);
+          line-height: calc(var(--index) * 1.4);
         }
       }
     }

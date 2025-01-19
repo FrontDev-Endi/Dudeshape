@@ -11,14 +11,12 @@ wow.init();
 
 <template>
   <div class="head">
-    <div class="head">
-      <h1 class="title animate__animated animate__fadeInLeft wow">
-        Subscribe to Get Our Letest News
-      </h1>
-      <div class="input animate__animated animate__fadeInRight wow">
-        <input type="email" name="email" id="email" placeholder="Enter email" />
-        <button type="submit">Subscribe</button>
-      </div>
+    <h1 class="title animate__animated animate__fadeInLeft wow">
+      Subscribe to Get Our Letest News
+    </h1>
+    <div class="input animate__animated animate__fadeInRight wow">
+      <input type="email" name="email" id="email" placeholder="Enter email" />
+      <button type="submit">Subscribe</button>
     </div>
   </div>
 </template>
@@ -28,13 +26,15 @@ wow.init();
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
   flex-wrap: wrap;
   .title {
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 500;
     font-size: 36px;
     font-size: calc(var(--index) * 1.3);
     line-height: calc(var(--index) * 1.8);
-    /* padding-right: 300px; */
     padding-right: calc(var(--index) * 10);
     color: #222;
     padding-bottom: 20px;
@@ -74,16 +74,32 @@ wow.init();
   .head {
     flex-direction: column;
     .title {
-      padding-right: 0px;
+      /* padding-right: 0px; */
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 850px) {
   .head {
     .input {
       input {
-        width: calc(var(--index) * 20);
+        width: calc(var(--index) * 17);
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .head {
+    .input {
+      button{
+        font-size: calc(var(--index)* 0.7);
+        width: calc(var(--index)* 5);
+        height: calc(var(--index)* 2);
+        margin-left: -80px;
       }
     }
   }

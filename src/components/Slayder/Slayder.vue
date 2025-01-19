@@ -117,7 +117,7 @@ export default {
 
 @media (max-width: 780px) {
   .slayder {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 }
 </style>

@@ -1,4 +1,5 @@
-/public<template>
+/public
+<template>
   <div class="foot">
     <div class="one">
       <h1 class="logo">Dudeshape</h1>
@@ -112,13 +113,39 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .foot {
     flex-direction: column;
     .one {
       margin-right: 0px;
       margin-left: auto;
       margin-right: auto;
+      .text {
+        font-size: calc(var(--index) * 0.75);
+        line-height: calc(var(--index) * 1.3);
+        margin-top: 20px;
+      }
+    }
+    .bloc {
+      .two {
+        .title {
+          font-size: calc(var(--index) * 1.1);
+        }
+        ul {
+          li {
+            font-size: calc(var(--index) * 0.75);
+            line-height: calc(var(--index) * 0.8);
+          }
+        }
+      }
+      .three {
+        .title {
+          font-size: calc(var(--index) * 1.1);
+        }
+        p{
+          font-size: calc(var(--index) * 0.75);
+        }
+      }
     }
   }
 }

@@ -12,14 +12,14 @@ wow.init();
 <template>
   <div class="number">
     <div class="content">
-      <div
-        class="one animate__animated animate__fadeInDown wow"
-      >
+      <div class="one animate__animated animate__fadeInDown wow">
         <h1>100%</h1>
         <div class="linea"></div>
         <p>Organic Products</p>
       </div>
-      <div class="two animate__animated animate__fadeInDown animate__delay-1s wow">
+      <div
+        class="two animate__animated animate__fadeInDown animate__delay-1s wow"
+      >
         <h1>2M+</h1>
         <div class="linea"></div>
         <p>Yearly Sales</p>
@@ -120,6 +120,58 @@ wow.init();
         color: #555;
       }
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .number {
+    .content {
+      .one {
+        h1 {
+          font-size: calc(var(--index) * 2.5);
+          line-height: calc(var(--index) * 2.5);
+        }
+        .linea {
+          width: calc(var(--index) * 5.5);
+        }
+        p {
+          font-size: calc(var(--index) * 0.95);
+          line-height: calc(var(--index) * 1.5);
+        }
+      }
+      .two {
+        h1 {
+          font-size: calc(var(--index) * 2.5);
+          line-height: calc(var(--index) * 2.5);
+        }
+        .linea {
+          width: calc(var(--index) * 5.5);
+        }
+        p {
+          font-size: calc(var(--index) * 0.95);
+          line-height: calc(var(--index) * 1.5);
+        }
+      }
+      .three {
+        h1 {
+          font-size: calc(var(--index) * 2.5);
+          line-height: calc(var(--index) * 2.5);
+        }
+        .linea {
+          width: calc(var(--index) * 5.5);
+        }
+        p {
+          font-size: calc(var(--index) * 0.95);
+          line-height: calc(var(--index) * 1.5);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .number{
+    margin-bottom: calc(var(--index) * 5);
   }
 }
 </style>

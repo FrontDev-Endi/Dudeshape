@@ -121,4 +121,28 @@ const addtodiscover = () => {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .our-porular-product {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .our-porular-product {
+    & .container {
+      & .head {
+        &[data-v-2718eec7] {
+          display: flex;
+          padding-bottom: 60px;
+          flex-direction: column;
+          .btn {
+            margin-right: auto;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
 </style>
